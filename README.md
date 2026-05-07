@@ -29,9 +29,9 @@ I design and ship **production-grade AI systems** — multi-agent pipelines, cod
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Miked1991&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Miked1991&theme=tokyonight" alt="Stats"/>
   &nbsp;
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miked1991&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Miked1991&theme=tokyonight" alt="Top Languages"/>
 </div>
 
 <div align="center">
@@ -180,7 +180,7 @@ I design and ship **production-grade AI systems** — multi-agent pipelines, cod
 ## 🌎 Find me around the web
 
 - 💼 Connect on [LinkedIn](https://linkedin.com/in/mikias-dagem)
-- 📧 Reach me at [mikias@10academy.org](mailto:mikias@10academy.org)
+- 📧 Reach me at [mikiasdagem@gmail.com](mailto:mikias@10academy.org)
 - 🐙 Explore my work on [GitHub](https://github.com/Miked1991)
 
 *Open to collaboration on production AI systems, FDE tooling, and applied ML research.*
