@@ -1,172 +1,157 @@
-<!--- 🌌 COSMIC DASHBOARD — MIKIAS DAGEM --->
+<!--- EXACT DESIGN IMPLEMENTATION — MIKIAS | CREATIVE AI ENGINEER --->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f2a,100:1a1f4a&height=250&section=header&text=✦%20MIKIAS%20✦&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=FORWARD%20DEPLOYED%20ENGINEER%20%7C%20AI%20ARCHITECT&descAlignY=55&descSize=18&descColor=c0e0ff"/>
-</div>
-
-<!-- Holographic typing line -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=2000&pause=800&color=7A88FF&center=true&vCenter=true&width=750&lines=⟳+Building+production‑grade+intelligent+systems;⚡+Agentic+pipelines+from+research+→+reality;🔮+Forward+Deployed+Engineer+%40+10+Academy;🎯+Making+models+useful+in+real+deployments" alt="Typing SVG" />
-</div>
-
-<br>
-
-<!-- GLASS PANEL STATS + LOCATION (three floating cards) -->
-<table align="center" width="100%" style="background: transparent; border: none; backdrop-filter: blur(0px);">
-  <tr>
-    <td align="center" width="33%" style="background: rgba(20,30,60,0.4); border-radius: 20px; padding: 12px; border: 1px solid rgba(90,140,255,0.3); backdrop-filter: blur(8px);">
-      <img src="https://img.icons8.com/ios-filled/24/7A88FF/marker.png"/>  📍 <span style="color:#c0e0ff; font-weight:500;">ADDIS ABABA, ETHIOPIA</span>
-    </td>
-    <td align="center" width="33%" style="background: rgba(20,30,60,0.4); border-radius: 20px; padding: 12px; border: 1px solid rgba(90,140,255,0.3); backdrop-filter: blur(8px);">
-      <img src="https://img.icons8.com/ios-filled/24/7A88FF/company.png"/>  🏫 <span style="color:#c0e0ff; font-weight:500;">10 ACADEMY — FDE</span>
-    </td>
-    <td align="center" width="33%" style="background: rgba(20,30,60,0.4); border-radius: 20px; padding: 12px; border: 1px solid rgba(90,140,255,0.3); backdrop-filter: blur(8px);">
-      <img src="https://komarev.com/ghpvc/?username=Miked1991&label=✦+COSMIC+VIEWS+✦&color=7A88FF&style=flat-square&labelColor=0a0f2a"/>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- 🌟 ABOUT ME — left + right stats side-by-side (unique layout) -->
-<table width="100%" style="background: transparent; border: none;">
-  <tr>
-    <td width="55%" valign="top" style="background: rgba(12,18,38,0.6); border-radius: 28px; padding: 20px; border-left: 4px solid #7A88FF; backdrop-filter: blur(4px);">
-      <h2 style="margin:0 0 8px 0; background: linear-gradient(135deg, #B3C7FF, #7A88FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">⚡ 0x4D696B696173</h2>
-      <p style="color:#d0e0ff; font-size: 16px;"><em>“Bridging the gap between models and reality — from research to production systems that survive Monday mornings.”</em></p>
-      <p style="color:#b0c4ff;">I design and ship <strong style="color:#FFD966;">production-grade AI systems</strong> — multi-agent pipelines, codebase intelligence tools, and LLM-powered automation. My work sits at the intersection of <strong>machine learning</strong>, <strong>systems engineering</strong>, and <strong>real‑world deployment</strong>. I care about systems that work under pressure, not just on benchmarks.</p>
-      <p style="color:#b0c4ff;">🔧 <strong>Current obsession:</strong> Agentic observability + preference optimization (ORPO/DPO) for domain‑specific finetuning.</p>
-    </td>
-    <td width="45%" valign="top" style="background: rgba(12,18,38,0.6); border-radius: 28px; padding: 16px; backdrop-filter: blur(4px);">
-      <!-- custom stats with glow -->
-      <div align="center">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Miked1991&theme=nord_dark&bg_color=0d1117&title_color=7A88FF&icon_color=FFD966" width="100%"/>
-        <br><br>
-        <img src="https://github-readme-streak-stats.herokuapp.com?user=Miked1991&theme=dark&hide_border=true&background=0D1117&stroke=7A88FF&ring=7A88FF&fire=FFD966&currStreakNum=FFFFFF&sideNums=BBBBBB&currStreakLabel=7A88FF&sideLabels=7A88FF" width="100%"/>
-      </div>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- 🏆 TROPHY ROW - floating -->
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Miked1991&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" width="100%"/>
-</div>
-
-<br>
-
-<!-- 🔥 UNIQUE SECTION: 3D FOCUS AREAS (cards with progress bars) -->
-<h2 align="center" style="background: linear-gradient(120deg, #7A88FF, #B3C7FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">▸ FOCUS MATRIX ◂</h2>
-
-<table width="100%" style="background: transparent; border: none;">
-  <tr>
-    <td width="50%" style="background: rgba(0,0,0,0.3); border-radius: 20px; padding: 12px;">
-      <span style="color:#FFD966;">🤖 AGENTIC SYSTEM DESIGN</span>
-      <div style="background:#1e2a4a; border-radius: 12px;"><div style="width:92%; background:#7A88FF; border-radius:12px; padding:4px 0; text-align:right; padding-right:8px; color:white;">92%</div></div>
-      <span style="color:#FFD966;">🎯 PREFERENCE OPTIMIZATION</span>
-      <div style="background:#1e2a4a; border-radius: 12px; margin-top:6px;"><div style="width:78%; background:#7A88FF; border-radius:12px; padding:4px 0; text-align:right; padding-right:8px; color:white;">78%</div></div>
-    </td>
-    <td width="50%" style="background: rgba(0,0,0,0.3); border-radius: 20px; padding: 12px;">
-      <span style="color:#FFD966;">🔍 FORWARD DEPLOYED ENG.</span>
-      <div style="background:#1e2a4a; border-radius: 12px;"><div style="width:88%; background:#7A88FF; border-radius:12px; padding:4px 0; text-align:right; padding-right:8px; color:white;">88%</div></div>
-      <span style="color:#FFD966;">📦 DOCUMENT INTELLIGENCE</span>
-      <div style="background:#1e2a4a; border-radius: 12px; margin-top:6px;"><div style="width:84%; background:#7A88FF; border-radius:12px; padding:4px 0; text-align:right; padding-right:8px; color:white;">84%</div></div>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- 🛠️ TECH STACK — GLASS GRID WITH ICONS -->
-<h2 align="center" style="background: linear-gradient(120deg, #7A88FF, #B3C7FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">▸ NEURAL TOOLKIT ◂</h2>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0a0f2a&color=FFD966"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=0a0f2a"/>
-  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white&labelColor=0a0f2a"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white&labelColor=0a0f2a"/>
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=0a0f2a"/>
-</div>
-
-<br>
-
-<!-- 🚀 FEATURED PROJECTS — HOLOGRAPHIC CARDS WITH HOVER EFFECT -->
-<h2 align="center" style="background: linear-gradient(120deg, #7A88FF, #B3C7FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">▸ SIGNATURE BUILDS ◂</h2>
-
-<div align="center">
-  <table width="100%" style="border: none; background: transparent;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background: transparent; border: none;">
     <tr>
-      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-        <h3 style="margin:0 0 6px 0;">📄 Doc Intelligence</h3>
-        <p style="font-size:13px;">3‑layer fallback agentic pipeline (pdfplumber → MinerU → VLM) for structured knowledge extraction.</p>
-        <a href="https://github.com/Miked1991/Document_intelligence_refinery"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
-      </td>
-      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
-        <h3 style="margin:0 0 6px 0;">🗺️ Brownfield Cartographer</h3>
-        <p style="font-size:13px;">Codebase intelligence: 500+ files analyzed in ~47s → module graphs + data lineage.</p>
-        <a href="https://github.com/Miked1991/codebase-intel-system"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
-        <img src="https://img.shields.io/badge/AST-f78166?style=flat-square"/>
-      </td>
-      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
-        <h3 style="margin:0 0 6px 0;">⚡ Tenacious Conversion</h3>
-        <p style="font-size:13px;">B2B sales automation: Crunchbase enrichment + AI scoring → outreach (pass@1: 72.67%).</p>
-        <a href="https://github.com/Miked1991/tenacious-conversion-engine"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square"/>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
-        <h3 style="margin:0 0 6px 0;">⚖️ Digital Courtroom</h3>
-        <p style="font-size:13px;">LangGraph forensic audit system — detective + judge + synthesis nodes → structured reports.</p>
-        <a href="https://github.com/Miked1991/digital-courtroom"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
-        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/>
-      </td>
-      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
-        <h3 style="margin:0 0 6px 0;">🎬 AI Content Generator</h3>
-        <p style="font-size:13px;">Async multi‑provider (Lyria, MiniMax, KlingAI) with FFmpeg post‑processing + SQLite jobs.</p>
-        <a href="https://github.com/Miked1991/10acadam_AI_content_gen"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
-        <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square"/>
-      </td>
-      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
-        <h3 style="margin:0 0 6px 0;">📚 24+ repos</h3>
-        <p style="font-size:13px;">More agentic tools, RAG pipelines, and deployment blueprints.</p>
-        <a href="https://github.com/Miked1991?tab=repositories"><img src="https://img.shields.io/badge/Explore%20All-181717?style=flat-square&logo=github"/></a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
-
-<!-- 📈 CONTRIBUTION NEBULA (activity graph) -->
-<h2 align="center" style="background: linear-gradient(120deg, #7A88FF, #B3C7FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">▸ CONTRIBUTION NEBULA ◂</h2>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Miked1991&theme=react-dark&bg_color=0a0f2a&color=7A88FF&line=FFD966&point=7A88FF&area=true&hide_border=true&area_color=1a1f4a" width="100%"/>
-</div>
-
-<br>
-
-<!-- 🌌 COSMIC FOOTER + SOCIALS -->
-<div align="center">
-  <table style="background: transparent; border: none;">
-    <tr>
-      <td align="center" style="background: rgba(0,0,0,0.4); border-radius: 60px; padding: 10px 24px;">
-        <img src="https://img.icons8.com/ios-filled/20/7A88FF/linkedin.png"/>  <a href="https://linkedin.com/in/mikias-dagem" style="color:#c0e0ff;">LinkedIn</a>   |  
-        <img src="https://img.icons8.com/ios-filled/20/7A88FF/email.png"/>  <a href="mailto:mikias@10academy.org" style="color:#c0e0ff;">mikias@10academy.org</a>   |  
-        <img src="https://img.icons8.com/ios-filled/20/7A88FF/github.png"/>  <a href="https://github.com/Miked1991" style="color:#c0e0ff;">GitHub</a>
+      <td align="center" valign="top">
+        <!-- MAIN CARD — exact replica of "Matias" layout -->
+        <div style="
+          max-width: 1000px;
+          margin: 20px auto;
+          background: linear-gradient(145deg, #0E0F1A 0%, #151728 100%);
+          border-radius: 42px;
+          padding: 32px 40px;
+          box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 0 1px rgba(90, 136, 255, 0.15);
+          backdrop-filter: blur(2px);
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        ">
+          
+          <!-- TWO COLUMN GRID (exactly as described) -->
+          <div style="display: flex; flex-wrap: wrap; gap: 32px;">
+            
+            <!-- LEFT COLUMN: Name + Title + Description -->
+            <div style="flex: 1.2; min-width: 200px;">
+              <h1 style="
+                font-size: 72px;
+                font-weight: 800;
+                margin: 0 0 8px 0;
+                background: linear-gradient(135deg, #FFFFFF 0%, #A0B4FF 80%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                letter-spacing: -1.5px;
+              ">Mikias</h1>
+              
+              <p style="
+                font-size: 20px;
+                font-weight: 500;
+                color: #7A88FF;
+                margin: 0 0 24px 0;
+                letter-spacing: -0.3px;
+                border-left: 3px solid #7A88FF;
+                padding-left: 16px;
+              ">Forward Deployed &nbsp;⟡&nbsp; AI Architect</p>
+              
+              <p style="
+                font-size: 16px;
+                line-height: 1.5;
+                color: #C0D0F0;
+                margin: 24px 0 0 0;
+                opacity: 0.9;
+              ">
+                I'm Mikias Dagem — I design and ship production‑grade intelligent systems. 
+                Currently building agentic pipelines and codebase intelligence tools 
+                <strong style="color:#FFD966;">@10 Academy</strong>. 
+                Residing in <strong style="color:#A0B4FF;">Addis Ababa, Ethiopia</strong>.
+              </p>
+            </div>
+            
+            <!-- RIGHT COLUMN: Work Process + 4 items (exact match to image) -->
+            <div style="flex: 0.9; min-width: 220px;">
+              <h3 style="
+                font-size: 22px;
+                font-weight: 600;
+                margin: 0 0 20px 0;
+                color: #FFFFFF;
+                letter-spacing: -0.2px;
+                border-bottom: 2px dashed #7A88FF;
+                display: inline-block;
+                padding-bottom: 6px;
+              ">Work Process</h3>
+              
+              <ul style="
+                list-style: none;
+                padding: 0;
+                margin: 0;
+              ">
+                <li style="margin-bottom: 18px; display: flex; align-items: center; gap: 12px;">
+                  <span style="font-size: 28px;">🖌️</span>
+                  <span style="color:#E0ECFF; font-weight: 500;">Website Design & Logo</span>
+                </li>
+                <li style="margin-bottom: 18px; display: flex; align-items: center; gap: 12px;">
+                  <span style="font-size: 28px;">🏢</span>
+                  <span style="color:#E0ECFF; font-weight: 500;">Business Branding</span>
+                </li>
+                <li style="margin-bottom: 18px; display: flex; align-items: center; gap: 12px;">
+                  <span style="font-size: 28px;">📱</span>
+                  <span style="color:#E0ECFF; font-weight: 500;">Mobile Application Design</span>
+                </li>
+                <li style="margin-bottom: 0px; display: flex; align-items: center; gap: 12px;">
+                  <span style="font-size: 28px;">🎨</span>
+                  <span style="color:#E0ECFF; font-weight: 500;">UI/UX Mobile Design</span>
+                </li>
+              </ul>
+            </div>
+            
+          </div> <!-- end flex -->
+          
+          <!-- Separator line + avatar/contact row (as in original style) -->
+          <div style="
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(90, 136, 255, 0.25);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+          ">
+            <div style="display: flex; align-items: center; gap: 16px;">
+              <div style="
+                width: 52px;
+                height: 52px;
+                background: linear-gradient(135deg, #7A88FF, #FFD966);
+                border-radius: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 28px;
+                font-weight: bold;
+                color: #0E0F1A;
+              ">MD</div>
+              <div>
+                <div style="font-weight: 600; color: #FFFFFF;">Mikias Dagem</div>
+                <div style="font-size: 13px; color: #7A88FF;">mikias@10academy.org  |  ✦  github.com/Miked1991</div>
+              </div>
+            </div>
+            <div style="display: flex; gap: 12px;">
+              <span style="
+                background: rgba(122, 136, 255, 0.15);
+                padding: 6px 14px;
+                border-radius: 60px;
+                font-size: 13px;
+                color: #B0C4FF;
+              ">🐙 18+ repos</span>
+              <span style="
+                background: rgba(122, 136, 255, 0.15);
+                padding: 6px 14px;
+                border-radius: 60px;
+                font-size: 13px;
+                color: #B0C4FF;
+              ">⚡ agentic pipelines</span>
+            </div>
+          </div>
+          
+        </div> <!-- end card -->
       </td>
     </tr>
   </table>
-  <br>
-  <em style="color:#7A88FF;">✦ Open to collaborations on production AI systems, FDE tooling, and applied ML research ✦</em>
-  <br><br>
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f2a,100:1a1f4a&height=120&section=footer&reversal=true"/>
 </div>
+
+<!-- Optional: keep some of your existing stats below, but exact design is above -->
+<br>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2500&pause=800&color=7A88FF&center=true&vCenter=true&width=600&lines=Building+production‑grade+intelligent+systems;Agentic+pipelines+from+research+→+reality;Forward+Deployed+Engineer+%40+10+Academy" />
+</div>
+
+<!-- Keep your contribution graph and footer if you like, but the above is the exact requested design -->
