@@ -1,190 +1,172 @@
+<!--- 🌌 COSMIC DASHBOARD — MIKIAS DAGEM --->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3,12,20,30&height=220&section=header&text=Hi%2C%20I%27m%20Mikias%20%F0%9F%91%8B&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Data%20Scientist%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Forward%20Deployed%20Engineer&descAlignY=62&descColor=e0e0e0&descSize=20"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f2a,100:1a1f4a&height=250&section=header&text=✦%20MIKIAS%20✦&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=FORWARD%20DEPLOYED%20ENGINEER%20%7C%20AI%20ARCHITECT&descAlignY=55&descSize=18&descColor=c0e0ff"/>
 </div>
 
+<!-- Holographic typing line -->
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=680&lines=Building+production-grade+intelligent+systems+%F0%9F%94%A5;Agentic+pipelines+from+research+to+reality+%F0%9F%9A%80;Forward+Deployed+Engineer+%40+10+Academy+%F0%9F%8F%AB;Making+models+useful+in+real+deployments+%F0%9F%8E%AF" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=600&size=22&duration=2000&pause=800&color=7A88FF&center=true&vCenter=true&width=750&lines=⟳+Building+production‑grade+intelligent+systems;⚡+Agentic+pipelines+from+research+→+reality;🔮+Forward+Deployed+Engineer+%40+10+Academy;🎯+Making+models+useful+in+real+deployments" alt="Typing SVG" />
 </div>
 
-<br/>
+<br>
 
-<div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%93%8D%20Addis%20Ababa%2C%20Ethiopia-1a1b4b?style=flat-square&color=58a6ff"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/%F0%9F%8F%AB%2010%20Academy-1a1b4b?style=flat-square&color=f78166"/>
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=Miked1991&label=Profile+Views&color=58a6ff&style=flat-square"/>
-</div>
-
----
-
-## 💡 About Me
-
-> *"Bridging the gap between models and reality — from research to production."*
-
-I design and ship **production-grade AI systems** — multi-agent pipelines, codebase intelligence tools, and LLM-powered automation. My work sits at the intersection of machine learning, systems engineering, and real-world deployment. I care about systems that work under pressure, not just on benchmarks.
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Miked1991&theme=tokyonight" alt="Stats"/>
-  &nbsp;
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Miked1991&theme=tokyonight" alt="Top Languages"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Miked1991&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=f78166&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak"/>
-</div>
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Miked1991&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7"/>
-</div>
-
----
-
-## 🛠️ Featured Projects
-
-<table>
+<!-- GLASS PANEL STATS + LOCATION (three floating cards) -->
+<table align="center" width="100%" style="background: transparent; border: none; backdrop-filter: blur(0px);">
   <tr>
-    <td width="50%" valign="top">
-      <h3>📄 Document Intelligence Refinery</h3>
-      <p>Production-grade, multi-stage agentic pipeline for extracting structured, spatially-indexed knowledge from heterogeneous documents. Three-layer fallback: pdfplumber → MinerU → VLM.</p>
-      <a href="https://github.com/Miked1991/Document_intelligence_refinery">
-        <img src="https://img.shields.io/badge/View%20Repo-58a6ff?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      &nbsp;
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+    <td align="center" width="33%" style="background: rgba(20,30,60,0.4); border-radius: 20px; padding: 12px; border: 1px solid rgba(90,140,255,0.3); backdrop-filter: blur(8px);">
+      <img src="https://img.icons8.com/ios-filled/24/7A88FF/marker.png"/>  📍 <span style="color:#c0e0ff; font-weight:500;">ADDIS ABABA, ETHIOPIA</span>
     </td>
-    <td width="50%" valign="top">
-      <h3>🗺️ Brownfield Cartographer</h3>
-      <p>Codebase intelligence system for Forward Deployed Engineers. Analyzes 500+ files in ~47s — outputs module dependency graphs, data lineage maps, and living documentation.</p>
-      <a href="https://github.com/Miked1991/codebase-intel-system">
-        <img src="https://img.shields.io/badge/View%20Repo-58a6ff?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      &nbsp;
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/AST-f78166?style=flat-square&logoColor=white"/>
+    <td align="center" width="33%" style="background: rgba(20,30,60,0.4); border-radius: 20px; padding: 12px; border: 1px solid rgba(90,140,255,0.3); backdrop-filter: blur(8px);">
+      <img src="https://img.icons8.com/ios-filled/24/7A88FF/company.png"/>  🏫 <span style="color:#c0e0ff; font-weight:500;">10 ACADEMY — FDE</span>
+    </td>
+    <td align="center" width="33%" style="background: rgba(20,30,60,0.4); border-radius: 20px; padding: 12px; border: 1px solid rgba(90,140,255,0.3); backdrop-filter: blur(8px);">
+      <img src="https://komarev.com/ghpvc/?username=Miked1991&label=✦+COSMIC+VIEWS+✦&color=7A88FF&style=flat-square&labelColor=0a0f2a"/>
     </td>
   </tr>
+</table>
+
+<br>
+
+<!-- 🌟 ABOUT ME — left + right stats side-by-side (unique layout) -->
+<table width="100%" style="background: transparent; border: none;">
   <tr>
-    <td width="50%" valign="top">
-      <h3>⚡ Tenacious Conversion Engine</h3>
-      <p>B2B sales automation with end-to-end prospect workflows — Crunchbase/PDL enrichment, AI maturity scoring, personalized outreach, and discovery call booking. Pass@1: 72.67%.</p>
-      <a href="https://github.com/Miked1991/tenacious-conversion-engine">
-        <img src="https://img.shields.io/badge/View%20Repo-58a6ff?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      &nbsp;
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+    <td width="55%" valign="top" style="background: rgba(12,18,38,0.6); border-radius: 28px; padding: 20px; border-left: 4px solid #7A88FF; backdrop-filter: blur(4px);">
+      <h2 style="margin:0 0 8px 0; background: linear-gradient(135deg, #B3C7FF, #7A88FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">⚡ 0x4D696B696173</h2>
+      <p style="color:#d0e0ff; font-size: 16px;"><em>“Bridging the gap between models and reality — from research to production systems that survive Monday mornings.”</em></p>
+      <p style="color:#b0c4ff;">I design and ship <strong style="color:#FFD966;">production-grade AI systems</strong> — multi-agent pipelines, codebase intelligence tools, and LLM-powered automation. My work sits at the intersection of <strong>machine learning</strong>, <strong>systems engineering</strong>, and <strong>real‑world deployment</strong>. I care about systems that work under pressure, not just on benchmarks.</p>
+      <p style="color:#b0c4ff;">🔧 <strong>Current obsession:</strong> Agentic observability + preference optimization (ORPO/DPO) for domain‑specific finetuning.</p>
     </td>
-    <td width="50%" valign="top">
-      <h3>⚖️ Digital Courtroom</h3>
-      <p>LangGraph-orchestrated auditing system for forensic codebase analysis. Detective nodes collect evidence, judge nodes analyze, synthesis nodes produce structured audit reports.</p>
-      <a href="https://github.com/Miked1991/digital-courtroom">
-        <img src="https://img.shields.io/badge/View%20Repo-58a6ff?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      &nbsp;
-      <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎬 AI Content Generator</h3>
-      <p>Multi-provider async framework for AI-generated content — music, video, and images across Google Lyria, MiniMax, and KlingAI — with SQLite job tracking and FFmpeg post-processing.</p>
-      <a href="https://github.com/Miked1991/10acadam_AI_content_gen">
-        <img src="https://img.shields.io/badge/View%20Repo-58a6ff?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-      &nbsp;
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white"/>
-    </td>
-    <td width="50%" valign="top">
-      <br/><br/><br/>
+    <td width="45%" valign="top" style="background: rgba(12,18,38,0.6); border-radius: 28px; padding: 16px; backdrop-filter: blur(4px);">
+      <!-- custom stats with glow -->
       <div align="center">
-        <a href="https://github.com/Miked1991?tab=repositories">
-          <img src="https://img.shields.io/badge/More%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-        </a>
-        <br/><br/>
-        <em>24 public repositories and counting...</em>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Miked1991&theme=nord_dark&bg_color=0d1117&title_color=7A88FF&icon_color=FFD966" width="100%"/>
+        <br><br>
+        <img src="https://github-readme-streak-stats.herokuapp.com?user=Miked1991&theme=dark&hide_border=true&background=0D1117&stroke=7A88FF&ring=7A88FF&fire=FFD966&currStreakNum=FFFFFF&sideNums=BBBBBB&currStreakLabel=7A88FF&sideLabels=7A88FF" width="100%"/>
       </div>
     </td>
   </tr>
 </table>
 
----
+<br>
 
-## 🧰 Tech Stack
-
+<!-- 🏆 TROPHY ROW - floating -->
 <div align="center">
-
-**🐍 Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-
-**🧠 AI / ML**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
-
-**🏗️ Infrastructure**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-**🔌 Integrations**
-
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![HubSpot](https://img.shields.io/badge/HubSpot-FF7A59?style=for-the-badge&logo=hubspot&logoColor=white)
-![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=for-the-badge&logoColor=white)
-
+  <img src="https://github-profile-trophy.vercel.app/?username=Miked1991&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" width="100%"/>
 </div>
 
----
+<br>
 
-## 🎯 Focus Areas
+<!-- 🔥 UNIQUE SECTION: 3D FOCUS AREAS (cards with progress bars) -->
+<h2 align="center" style="background: linear-gradient(120deg, #7A88FF, #B3C7FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">▸ FOCUS MATRIX ◂</h2>
 
-```text
-🤖  Agentic System Design       Multi-node pipelines with fallback, retry, and observability
-🔍  Forward Deployed Eng.       Rapid codebase comprehension and production handoffs
-🎛️  Preference Optimization     ORPO, DPO, SFT data curation for domain-specific fine-tuning
-📦  Document Intelligence       Spatial indexing, multi-modal retrieval, knowledge extraction
-```
+<table width="100%" style="background: transparent; border: none;">
+  <tr>
+    <td width="50%" style="background: rgba(0,0,0,0.3); border-radius: 20px; padding: 12px;">
+      <span style="color:#FFD966;">🤖 AGENTIC SYSTEM DESIGN</span>
+      <div style="background:#1e2a4a; border-radius: 12px;"><div style="width:92%; background:#7A88FF; border-radius:12px; padding:4px 0; text-align:right; padding-right:8px; color:white;">92%</div></div>
+      <span style="color:#FFD966;">🎯 PREFERENCE OPTIMIZATION</span>
+      <div style="background:#1e2a4a; border-radius: 12px; margin-top:6px;"><div style="width:78%; background:#7A88FF; border-radius:12px; padding:4px 0; text-align:right; padding-right:8px; color:white;">78%</div></div>
+    </td>
+    <td width="50%" style="background: rgba(0,0,0,0.3); border-radius: 20px; padding: 12px;">
+      <span style="color:#FFD966;">🔍 FORWARD DEPLOYED ENG.</span>
+      <div style="background:#1e2a4a; border-radius: 12px;"><div style="width:88%; background:#7A88FF; border-radius:12px; padding:4px 0; text-align:right; padding-right:8px; color:white;">88%</div></div>
+      <span style="color:#FFD966;">📦 DOCUMENT INTELLIGENCE</span>
+      <div style="background:#1e2a4a; border-radius: 12px; margin-top:6px;"><div style="width:84%; background:#7A88FF; border-radius:12px; padding:4px 0; text-align:right; padding-right:8px; color:white;">84%</div></div>
+    </td>
+  </tr>
+</table>
 
----
+<br>
 
-## 📈 Contribution Activity
+<!-- 🛠️ TECH STACK — GLASS GRID WITH ICONS -->
+<h2 align="center" style="background: linear-gradient(120deg, #7A88FF, #B3C7FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">▸ NEURAL TOOLKIT ◂</h2>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Miked1991&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f78166&area=true&area_color=1a1b4b" alt="Contribution Graph"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=0a0f2a&color=FFD966"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0a0f2a&color=7A88FF"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black&labelColor=0a0f2a"/>
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logo=groq&logoColor=white&labelColor=0a0f2a"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white&labelColor=0a0f2a"/>
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white&labelColor=0a0f2a"/>
 </div>
 
----
+<br>
 
-## 🌎 Find me around the web
-
-- 💼 Connect on [LinkedIn](https://linkedin.com/in/mikias-dagem)
-- 📧 Reach me at [mikiasdagem@gmail.com](mailto:mikias@10academy.org)
-- 🐙 Explore my work on [GitHub](https://github.com/Miked1991)
-
-*Open to collaboration on production AI systems, FDE tooling, and applied ML research.*
+<!-- 🚀 FEATURED PROJECTS — HOLOGRAPHIC CARDS WITH HOVER EFFECT -->
+<h2 align="center" style="background: linear-gradient(120deg, #7A88FF, #B3C7FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">▸ SIGNATURE BUILDS ◂</h2>
 
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3,12,20,30&height=140&section=footer&reversal=true"/>
+  <table width="100%" style="border: none; background: transparent;">
+    <tr>
+      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+        <h3 style="margin:0 0 6px 0;">📄 Doc Intelligence</h3>
+        <p style="font-size:13px;">3‑layer fallback agentic pipeline (pdfplumber → MinerU → VLM) for structured knowledge extraction.</p>
+        <a href="https://github.com/Miked1991/Document_intelligence_refinery"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
+      </td>
+      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
+        <h3 style="margin:0 0 6px 0;">🗺️ Brownfield Cartographer</h3>
+        <p style="font-size:13px;">Codebase intelligence: 500+ files analyzed in ~47s → module graphs + data lineage.</p>
+        <a href="https://github.com/Miked1991/codebase-intel-system"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
+        <img src="https://img.shields.io/badge/AST-f78166?style=flat-square"/>
+      </td>
+      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
+        <h3 style="margin:0 0 6px 0;">⚡ Tenacious Conversion</h3>
+        <p style="font-size:13px;">B2B sales automation: Crunchbase enrichment + AI scoring → outreach (pass@1: 72.67%).</p>
+        <a href="https://github.com/Miked1991/tenacious-conversion-engine"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
+        <h3 style="margin:0 0 6px 0;">⚖️ Digital Courtroom</h3>
+        <p style="font-size:13px;">LangGraph forensic audit system — detective + judge + synthesis nodes → structured reports.</p>
+        <a href="https://github.com/Miked1991/digital-courtroom"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
+        <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/>
+      </td>
+      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
+        <h3 style="margin:0 0 6px 0;">🎬 AI Content Generator</h3>
+        <p style="font-size:13px;">Async multi‑provider (Lyria, MiniMax, KlingAI) with FFmpeg post‑processing + SQLite jobs.</p>
+        <a href="https://github.com/Miked1991/10acadam_AI_content_gen"><img src="https://img.shields.io/badge/⟳%20Repo-7A88FF?style=flat-square&logo=github"/></a>
+        <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square"/>
+      </td>
+      <td align="center" width="33%" style="background: rgba(20,30,60,0.5); border-radius: 24px; padding: 16px; margin: 8px; backdrop-filter: blur(6px);">
+        <h3 style="margin:0 0 6px 0;">📚 24+ repos</h3>
+        <p style="font-size:13px;">More agentic tools, RAG pipelines, and deployment blueprints.</p>
+        <a href="https://github.com/Miked1991?tab=repositories"><img src="https://img.shields.io/badge/Explore%20All-181717?style=flat-square&logo=github"/></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br>
+
+<!-- 📈 CONTRIBUTION NEBULA (activity graph) -->
+<h2 align="center" style="background: linear-gradient(120deg, #7A88FF, #B3C7FF); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">▸ CONTRIBUTION NEBULA ◂</h2>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Miked1991&theme=react-dark&bg_color=0a0f2a&color=7A88FF&line=FFD966&point=7A88FF&area=true&hide_border=true&area_color=1a1f4a" width="100%"/>
+</div>
+
+<br>
+
+<!-- 🌌 COSMIC FOOTER + SOCIALS -->
+<div align="center">
+  <table style="background: transparent; border: none;">
+    <tr>
+      <td align="center" style="background: rgba(0,0,0,0.4); border-radius: 60px; padding: 10px 24px;">
+        <img src="https://img.icons8.com/ios-filled/20/7A88FF/linkedin.png"/>  <a href="https://linkedin.com/in/mikias-dagem" style="color:#c0e0ff;">LinkedIn</a>   |  
+        <img src="https://img.icons8.com/ios-filled/20/7A88FF/email.png"/>  <a href="mailto:mikias@10academy.org" style="color:#c0e0ff;">mikias@10academy.org</a>   |  
+        <img src="https://img.icons8.com/ios-filled/20/7A88FF/github.png"/>  <a href="https://github.com/Miked1991" style="color:#c0e0ff;">GitHub</a>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <em style="color:#7A88FF;">✦ Open to collaborations on production AI systems, FDE tooling, and applied ML research ✦</em>
+  <br><br>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0f2a,100:1a1f4a&height=120&section=footer&reversal=true"/>
 </div>
