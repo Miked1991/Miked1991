@@ -1,36 +1,24 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,40:1a1b4b,100:0f3460&height=220&section=header&text=Mikias%20Dagem&fontSize=54&fontColor=58a6ff&animation=fadeIn&fontAlignY=40&desc=Data%20Scientist%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Forward%20Deployed%20Engineer&descAlignY=60&descColor=c9d1d9&descSize=20"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3,12,20,30&height=220&section=header&text=Hi%2C%20I%27m%20Mikias%20%F0%9F%91%8B&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Data%20Scientist%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Forward%20Deployed%20Engineer&descAlignY=62&descColor=e0e0e0&descSize=20"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=680&lines=Building+production-grade+intelligent+systems+%F0%9F%94%A5;Agentic+pipelines+from+research+to+reality+%F0%9F%9A%80;Forward+Deployed+Engineer+%40+10+Academy+%F0%9F%8F%AB;Making+models+useful+in+real+deployments+%F0%9F%8E%AF" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=680&lines=Building+production-grade+intelligent+systems+%F0%9F%94%A5;Agentic+pipelines+from+research+to+reality+%F0%9F%9A%80;Forward+Deployed+Engineer+%40+10+Academy+%F0%9F%8F%AB;Making+models+useful+in+real+deployments+%F0%9F%8E%AF" alt="Typing SVG" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%93%8D%20Addis%20Ababa%2C%20Ethiopia-0d1117?style=flat-square&labelColor=1a1b4b&color=58a6ff"/>
+  <img src="https://img.shields.io/badge/%F0%9F%93%8D%20Addis%20Ababa%2C%20Ethiopia-1a1b4b?style=flat-square&color=58a6ff"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/%F0%9F%8F%AB%2010%20Academy-0d1117?style=flat-square&labelColor=1a1b4b&color=f78166"/>
+  <img src="https://img.shields.io/badge/%F0%9F%8F%AB%2010%20Academy-1a1b4b?style=flat-square&color=f78166"/>
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=Miked1991&label=Profile+Views&color=58a6ff&style=flat-square"/>
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Focus-Agentic%20AI%20Systems-58a6ff?style=for-the-badge&logo=probot&logoColor=white"/>
-  &nbsp;
-  <img src="https://img.shields.io/badge/Deployed%20At-Production-2ea043?style=for-the-badge&logo=rocket&logoColor=white"/>
-</div>
-
 ---
 
-<div align="center">
-
 ## 💡 About Me
-
-</div>
 
 > *"Bridging the gap between models and reality — from research to production."*
 
@@ -38,43 +26,29 @@ I design and ship **production-grade AI systems** — multi-agent pipelines, cod
 
 ---
 
-<div align="center">
-
 ## 📊 GitHub Stats
 
-<br/>
+<div align="center">
+  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=Miked1991&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
+  &nbsp;
+  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miked1991&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+</div>
 
-<img height="175em" src="https://github-readme-stats.vercel.app/api?username=Miked1991&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9"/>
-&nbsp;
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Miked1991&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Miked1991&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=f78166&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak"/>
-
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=Miked1991&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=f78166&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak"/>
 </div>
 
 ---
-
-<div align="center">
 
 ## 🏆 Trophies
 
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Miked1991&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7"/>
-
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Miked1991&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7"/>
 </div>
 
 ---
 
-<div align="center">
-
 ## 🛠️ Featured Projects
-
-</div>
-
-<br/>
 
 <table>
   <tr>
@@ -133,13 +107,13 @@ I design and ship **production-grade AI systems** — multi-agent pipelines, cod
       <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white"/>
     </td>
     <td width="50%" valign="top">
-      <br/>
-      <br/>
-      <br/>
+      <br/><br/><br/>
       <div align="center">
-        <img src="https://img.shields.io/badge/More%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" href="https://github.com/Miked1991?tab=repositories"/>
+        <a href="https://github.com/Miked1991?tab=repositories">
+          <img src="https://img.shields.io/badge/More%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+        </a>
         <br/><br/>
-        <p><em>24 public repositories and counting...</em></p>
+        <em>24 public repositories and counting...</em>
       </div>
     </td>
   </tr>
@@ -147,11 +121,7 @@ I design and ship **production-grade AI systems** — multi-agent pipelines, cod
 
 ---
 
-<div align="center">
-
 ## 🧰 Tech Stack
-
-</div>
 
 <div align="center">
 
@@ -188,11 +158,7 @@ I design and ship **production-grade AI systems** — multi-agent pipelines, cod
 
 ---
 
-<div align="center">
-
 ## 🎯 Focus Areas
-
-</div>
 
 ```text
 🤖  Agentic System Design       Multi-node pipelines with fallback, retry, and observability
@@ -203,36 +169,22 @@ I design and ship **production-grade AI systems** — multi-agent pipelines, cod
 
 ---
 
-<div align="center">
-
 ## 📈 Contribution Activity
 
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Miked1991&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f78166&area=true&area_color=1a1b4b" alt="Contribution Graph"/>
-
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Miked1991&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=f78166&area=true&area_color=1a1b4b" alt="Contribution Graph"/>
 </div>
 
 ---
 
-<div align="center">
+## 🌎 Find me around the web
 
-## 📬 Reach Me
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mikias-dagem)
-&nbsp;
-[![Email](https://img.shields.io/badge/mikias%4010academy.org-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mikias@10academy.org)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/Miked1991-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Miked1991)
-
-<br/>
+- 💼 Connect on [LinkedIn](https://linkedin.com/in/mikias-dagem)
+- 📧 Reach me at [mikias@10academy.org](mailto:mikias@10academy.org)
+- 🐙 Explore my work on [GitHub](https://github.com/Miked1991)
 
 *Open to collaboration on production AI systems, FDE tooling, and applied ML research.*
 
-</div>
-
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3460,60:1a1b4b,100:0d1117&height=140&section=footer"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=2,3,12,20,30&height=140&section=footer&reversal=true"/>
 </div>
