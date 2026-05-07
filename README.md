@@ -1,134 +1,513 @@
-<!--
-  ╔══════════════════════════════════════════════════════════════╗
-  ║         MIKIAS DAGEM — GitHub Profile README                 ║
-  ║  Paste the full contents of this file into your README.md   ║
-  ║  GitHub renders raw HTML inside markdown files.             ║
-  ╚══════════════════════════════════════════════════════════════╝
--->
 
-<div align="center">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Syne:wght@400;700;800&family=Inter:wght@300;400;500&display=swap');
 
-<h1 style="font-size:3em; letter-spacing:0.08em; margin-bottom:0;">MIKIAS DAGEM</h1>
+  :root {
+    --surface: #0f0f17;
+    --card: #141420;
+    --border: rgba(255,255,255,0.07);
+    --accent: #7DF9C2;
+    --accent2: #5B8EFF;
+    --accent3: #FF6B6B;
+    --amber: #FFB86C;
+    --purple: #C084FC;
+    --muted: rgba(255,255,255,0.38);
+    --text: rgba(255,255,255,0.88);
+  }
 
-<p><strong>Forward Deployed Engineer&nbsp;·&nbsp;Data Scientist&nbsp;·&nbsp;AI Architect</strong></p>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
 
-<p>
-  <img src="https://img.shields.io/badge/Location-Addis%20Ababa%2C%20Ethiopia-0f0f17?style=flat-square&labelColor=0f0f17&color=7DF9C2"/>
-  <img src="https://img.shields.io/badge/Company-10%20Academy-0f0f17?style=flat-square&labelColor=0f0f17&color=5B8EFF"/>
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Collaborations-0f0f17?style=flat-square&labelColor=0f0f17&color=7DF9C2"/>
-</p>
+  .profile-wrap {
+    background: var(--surface);
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 0 60px;
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+  }
 
-<p>
-  <img src="https://img.shields.io/badge/Multi--Agent%20Systems-0f0f17?style=flat-square&labelColor=141420&color=5B8EFF"/>
-  <img src="https://img.shields.io/badge/Data%20Science-0f0f17?style=flat-square&labelColor=141420&color=FFB86C"/>
-  <img src="https://img.shields.io/badge/Forward%20Deployed%20Engineering-0f0f17?style=flat-square&labelColor=141420&color=FF6B6B"/>
-  <img src="https://img.shields.io/badge/Applied%20ML%20Research-0f0f17?style=flat-square&labelColor=141420&color=888888"/>
-</p>
+  /* HERO */
+  .hero {
+    padding: 56px 48px 40px;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -80px; right: -80px;
+    width: 380px; height: 380px;
+    background: radial-gradient(circle, rgba(93,142,255,0.13) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; left: 40px;
+    width: 280px; height: 280px;
+    background: radial-gradient(circle, rgba(125,249,194,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
 
-</div>
+  .hero-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .hero-tag::before {
+    content: '';
+    display: inline-block;
+    width: 20px; height: 1px;
+    background: var(--accent);
+  }
 
----
+  .hero-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 0.92;
+    letter-spacing: -0.03em;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .hero-name span { color: var(--accent2); }
 
-> *Bridging the gap between models and reality — building production AI systems that survive Monday mornings.*
+  .hero-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 18px;
+    margin-bottom: 28px;
+    letter-spacing: 0.04em;
+  }
+  .hero-title em { color: var(--accent); font-style: normal; }
 
----
+  .hero-quote {
+    max-width: 520px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: rgba(255,255,255,0.58);
+    border-left: 2px solid var(--accent2);
+    padding-left: 16px;
+    margin-bottom: 32px;
+    font-style: italic;
+  }
 
-## About
+  .hero-badges { display: flex; flex-wrap: wrap; gap: 8px; }
+  .badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    padding: 5px 12px;
+    border-radius: 2px;
+    border: 1px solid;
+  }
+  .badge-green  { color: var(--accent);  border-color: rgba(125,249,194,0.3); background: rgba(125,249,194,0.05); }
+  .badge-blue   { color: var(--accent2); border-color: rgba(91,142,255,0.3);  background: rgba(91,142,255,0.05); }
+  .badge-red    { color: var(--accent3); border-color: rgba(255,107,107,0.3); background: rgba(255,107,107,0.05); }
+  .badge-amber  { color: var(--amber);   border-color: rgba(255,184,108,0.3); background: rgba(255,184,108,0.05); }
+  .badge-muted  { color: var(--muted);   border-color: var(--border);         background: rgba(255,255,255,0.02); }
 
-I design and ship **production-grade AI systems** — multi-agent pipelines, codebase intelligence tools, and LLM-powered automation. My work lives at the intersection of **machine learning**, **systems engineering**, and **real-world deployment**. I care about systems that hold under pressure, not just ones that shine on benchmarks.
+  /* SECTIONS */
+  .section { padding: 40px 48px 0; }
+  .section-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
 
----
+  /* ABOUT */
+  .about-text { font-size: 15px; line-height: 1.85; color: rgba(255,255,255,0.65); max-width: 680px; }
+  .about-text strong { color: rgba(255,255,255,0.9); font-weight: 500; }
 
-## Technical Stack
+  /* STACK */
+  .stack-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+  }
+  .stack-cell { background: var(--card); padding: 18px 20px; transition: background 0.15s; }
+  .stack-cell:hover { background: rgba(255,255,255,0.04); }
+  .stack-cat { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+  .stack-items { display: flex; flex-direction: column; gap: 7px; }
+  .stack-item { font-size: 13px; color: rgba(255,255,255,0.75); display: flex; align-items: center; gap: 8px; }
+  .stack-dot { width: 5px; height: 5px; border-radius: 50%; flex-shrink: 0; }
+  .dot-green { background: var(--accent); }
+  .dot-blue  { background: var(--accent2); }
+  .dot-red   { background: var(--accent3); }
+  .dot-amber { background: var(--amber); }
 
-| Core & Systems | AI & Agentic | Infrastructure | Practices |
-|:---|:---|:---|:---|
-| Python | LangChain / LangGraph | Docker | Agentic Pipeline Design |
-| Bash / Shell | HuggingFace | FastAPI | Codebase Intelligence |
-| SQL / PostgreSQL | Groq | Git / GitHub Actions | Eval-Driven Development |
-| REST APIs | Retrieval-Augmented Gen | FFmpeg | Structured Outputs |
+  /* PROJECTS */
+  .projects-list { display: flex; flex-direction: column; gap: 1px; background: var(--border); border: 1px solid var(--border); }
+  .project-row {
+    background: var(--card);
+    padding: 22px 28px;
+    display: grid;
+    grid-template-columns: 36px 1fr auto;
+    align-items: start;
+    gap: 16px;
+    cursor: pointer;
+    transition: background 0.15s;
+    text-decoration: none;
+  }
+  .project-row:hover { background: rgba(255,255,255,0.04); }
+  .project-num { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); padding-top: 2px; }
+  .project-name { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; color: #fff; margin-bottom: 5px; }
+  .project-desc { font-size: 13px; color: var(--muted); line-height: 1.6; max-width: 560px; }
+  .project-tags { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+  .tag { font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: 0.06em; color: var(--muted); background: rgba(255,255,255,0.04); border: 1px solid var(--border); padding: 3px 8px; border-radius: 1px; }
+  .project-stat { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--accent); white-space: nowrap; text-align: right; padding-top: 2px; }
+  .project-stat span { display: block; color: var(--muted); font-size: 10px; margin-top: 3px; }
 
----
+  /* ACHIEVEMENTS */
+  .achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+  }
+  .achievement-card {
+    background: var(--card);
+    padding: 22px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: background 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+  .achievement-card:hover { background: rgba(255,255,255,0.04); }
+  .achievement-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+  }
+  .ach-gold::before   { background: linear-gradient(90deg, #F59E0B, #FDE68A, #F59E0B); }
+  .ach-silver::before { background: linear-gradient(90deg, #94A3B8, #E2E8F0, #94A3B8); }
+  .ach-green::before  { background: linear-gradient(90deg, #10B981, #6EE7B7, #10B981); }
+  .ach-blue::before   { background: linear-gradient(90deg, #5B8EFF, #A5C4FF, #5B8EFF); }
+  .ach-purple::before { background: linear-gradient(90deg, #C084FC, #E9D5FF, #C084FC); }
+  .ach-red::before    { background: linear-gradient(90deg, #FF6B6B, #FECACA, #FF6B6B); }
 
-## 🚀 Featured Projects
+  .ach-icon {
+    font-size: 26px;
+    line-height: 1;
+  }
+  .ach-name {
+    font-family: 'Syne', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .ach-desc {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+  .ach-tier {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 1px;
+    align-self: flex-start;
+    margin-top: auto;
+  }
+  .tier-gold   { color: #F59E0B; background: rgba(245,158,11,0.1);  border: 1px solid rgba(245,158,11,0.25); }
+  .tier-silver { color: #94A3B8; background: rgba(148,163,184,0.1); border: 1px solid rgba(148,163,184,0.25); }
+  .tier-green  { color: var(--accent);  background: rgba(125,249,194,0.08); border: 1px solid rgba(125,249,194,0.2); }
+  .tier-blue   { color: var(--accent2); background: rgba(91,142,255,0.08);  border: 1px solid rgba(91,142,255,0.2); }
+  .tier-purple { color: var(--purple);  background: rgba(192,132,252,0.08); border: 1px solid rgba(192,132,252,0.2); }
+  .tier-red    { color: var(--accent3); background: rgba(255,107,107,0.08); border: 1px solid rgba(255,107,107,0.2); }
 
-| # | Project | Description | Stack | Metric |
-|:--|:--------|:------------|:------|:-------|
-| 01 | [**Document Intelligence Refinery**](https://github.com/Miked1991/Document_intelligence_refinery) | Production-grade, multi-stage agentic pipeline for extracting structured knowledge from complex documents — PDFs, scans, and mixed-format corpora. | `LangGraph` `Python` | — |
-| 02 | [**Brownfield Cartographer**](https://github.com/Miked1991/codebase-intel-system) | Codebase intelligence for Forward Deployed Engineers. Analyzes 500+ files in ~47 seconds — outputs module dependency graphs and data lineage maps on demand. | `Python` `AST` | ⚡ 47s / 500+ files |
-| 03 | [**Tenacious Conversion Engine**](https://github.com/Miked1991/tenacious-conversion-engine) | B2B sales automation with Crunchbase enrichment, AI maturity scoring, and personalized outreach generation. | `FastAPI` `Python` | 🎯 Pass@1: 72.67% |
-| 04 | [**Digital Courtroom**](https://github.com/Miked1991/digital-courtroom) | LangGraph-orchestrated auditing system for forensic codebase analysis. Detective → Judge → Synthesis node architecture produces structured, actionable reports. | `LangGraph` `Python` | — |
-| 05 | [**AI Content Generator**](https://github.com/Miked1991/10acadam_AI_content_gen) | Multi-provider async framework for AI-generated content — music, video, and images across Google Lyria, MiniMax, and KlingAI. | `Python` `FFmpeg` | — |
+  /* STATS */
+  .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+  .stat-cell { background: var(--card); padding: 24px; }
+  .stat-label { font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .stat-value { font-family: 'Syne', sans-serif; font-size: 34px; font-weight: 800; line-height: 1; color: #fff; }
+  .stat-value.green { color: var(--accent); }
+  .stat-value.blue  { color: var(--accent2); }
+  .stat-value.red   { color: var(--accent3); }
+  .stat-sub { font-size: 12px; color: var(--muted); margin-top: 6px; }
 
-<div align="center">
-  <a href="https://github.com/Miked1991?tab=repositories">
-    <img src="https://img.shields.io/badge/Explore%20All%2024%2B%20Repositories-%23181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</div>
+  /* CONNECT */
+  .connect-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); }
+  .connect-item { background: var(--card); padding: 24px 28px; display: flex; align-items: center; gap: 14px; cursor: pointer; transition: background 0.15s; text-decoration: none; }
+  .connect-item:hover { background: rgba(255,255,255,0.05); }
+  .connect-icon { width: 36px; height: 36px; border-radius: 2px; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0; font-family: 'DM Mono', monospace; font-weight: 500; }
+  .ci-green { background: rgba(125,249,194,0.1); color: var(--accent); }
+  .ci-blue  { background: rgba(91,142,255,0.1);  color: var(--accent2); }
+  .ci-red   { background: rgba(255,107,107,0.1); color: var(--accent3); }
+  .connect-label { font-family: 'Syne', sans-serif; font-size: 14px; font-weight: 700; color: #fff; margin-bottom: 2px; }
+  .connect-handle { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); }
 
----
+  /* FOOTER */
+  .footer { margin: 48px 48px 0; padding-top: 28px; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+  .footer-left { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); }
+  .footer-left strong { color: var(--accent); font-weight: 400; }
+  .footer-right { font-family: 'DM Mono', monospace; font-size: 11px; color: var(--muted); display: flex; align-items: center; gap: 8px; }
+  .pulse { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); animation: pulse 2s infinite; }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+</style>
 
-## 🏆 GitHub Achievements
+<div class="profile-wrap">
 
-<div align="center">
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-tag">Forward Deployed Engineer · Data Scientist · AI Architect</div>
+    <div class="hero-name">MIKIAS<br><span>DAGEM</span></div>
+    <div class="hero-title"><em>@Miked1991</em> · 10 Academy · Addis Ababa, Ethiopia</div>
+    <div class="hero-quote">
+      Bridging the gap between models and reality — building production AI systems that survive Monday mornings.
+    </div>
+    <div class="hero-badges">
+      <span class="badge badge-green">Open to Collaborations</span>
+      <span class="badge badge-blue">Multi-Agent Systems</span>
+      <span class="badge badge-amber">Data Science</span>
+      <span class="badge badge-red">Forward Deployed Engineering</span>
+      <span class="badge badge-muted">Applied ML Research</span>
+    </div>
+  </div>
 
-| Achievement | Description | Tier |
-|:-----------:|:------------|:----:|
-| 🦈 **Pull Shark** | Merged pull requests recognized by the community — sustained code review discipline. | 🥇 Gold |
-| 🌱 **Quickdraw** | Closed an issue or pull request within 5 minutes of opening it. | ✅ Unlocked |
-| 🔭 **Galaxy Brain** | Answered a discussion that was marked as the accepted answer. | ✅ Unlocked |
-| 🦉 **Starstruck** | A repository earned 16 or more stars — work recognized by the community. | ✅ Unlocked |
-| 🪙 **YOLO** | Merged a pull request without a code review — shipped with confidence. | 🥈 Unlocked |
-| 🏔️ **Arctic Code Vault** | Code preserved in the GitHub Arctic Code Vault for future generations. | 🎖️ Contributor |
+  <!-- ABOUT -->
+  <div class="section" style="padding-top:40px">
+    <div class="section-title">About</div>
+    <p class="about-text">
+      I design and ship <strong>production-grade AI systems</strong> — multi-agent pipelines, codebase intelligence tools, and LLM-powered automation. My work lives at the intersection of <strong>machine learning</strong>, <strong>systems engineering</strong>, and <strong>real-world deployment</strong>. I care about systems that hold under pressure, not just ones that shine on benchmarks.
+    </p>
+  </div>
 
-</div>
+  <!-- STACK -->
+  <div class="section">
+    <div class="section-title">Technical Stack</div>
+    <div class="stack-grid">
+      <div class="stack-cell">
+        <div class="stack-cat">Core & Systems</div>
+        <div class="stack-items">
+          <div class="stack-item"><span class="stack-dot dot-blue"></span>Python</div>
+          <div class="stack-item"><span class="stack-dot dot-blue"></span>Bash / Shell</div>
+          <div class="stack-item"><span class="stack-dot dot-blue"></span>SQL / PostgreSQL</div>
+          <div class="stack-item"><span class="stack-dot dot-blue"></span>REST APIs</div>
+        </div>
+      </div>
+      <div class="stack-cell">
+        <div class="stack-cat">AI & Agentic</div>
+        <div class="stack-items">
+          <div class="stack-item"><span class="stack-dot dot-green"></span>LangChain / LangGraph</div>
+          <div class="stack-item"><span class="stack-dot dot-green"></span>HuggingFace</div>
+          <div class="stack-item"><span class="stack-dot dot-green"></span>Groq</div>
+          <div class="stack-item"><span class="stack-dot dot-green"></span>Retrieval-Augmented Gen</div>
+        </div>
+      </div>
+      <div class="stack-cell">
+        <div class="stack-cat">Infrastructure</div>
+        <div class="stack-items">
+          <div class="stack-item"><span class="stack-dot dot-amber"></span>Docker</div>
+          <div class="stack-item"><span class="stack-dot dot-amber"></span>FastAPI</div>
+          <div class="stack-item"><span class="stack-dot dot-amber"></span>Git / GitHub Actions</div>
+          <div class="stack-item"><span class="stack-dot dot-amber"></span>FFmpeg</div>
+        </div>
+      </div>
+      <div class="stack-cell">
+        <div class="stack-cat">Practices</div>
+        <div class="stack-items">
+          <div class="stack-item"><span class="stack-dot dot-red"></span>Agentic Pipeline Design</div>
+          <div class="stack-item"><span class="stack-dot dot-red"></span>Codebase Intelligence</div>
+          <div class="stack-item"><span class="stack-dot dot-red"></span>Eval-Driven Dev</div>
+          <div class="stack-item"><span class="stack-dot dot-red"></span>Structured Outputs</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
----
+  <!-- PROJECTS -->
+  <div class="section">
+    <div class="section-title">Featured Projects</div>
+    <div class="projects-list">
+      <a class="project-row" href="https://github.com/Miked1991/Document_intelligence_refinery" target="_blank">
+        <div class="project-num">01</div>
+        <div>
+          <div class="project-name">Document Intelligence Refinery</div>
+          <div class="project-desc">Production-grade, multi-stage agentic pipeline for extracting structured knowledge from complex documents — PDFs, scans, and mixed-format corpora.</div>
+          <div class="project-tags"><span class="tag">LangGraph</span><span class="tag">Python</span><span class="tag">Multi-stage agents</span><span class="tag">PDF parsing</span></div>
+        </div>
+        <div class="project-stat">→<span>view repo</span></div>
+      </a>
+      <a class="project-row" href="https://github.com/Miked1991/codebase-intel-system" target="_blank">
+        <div class="project-num">02</div>
+        <div>
+          <div class="project-name">Brownfield Cartographer</div>
+          <div class="project-desc">Codebase intelligence for Forward Deployed Engineers. Analyzes 500+ files in ~47 seconds — outputs module dependency graphs and data lineage maps on demand.</div>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">AST analysis</span><span class="tag">Dependency graphs</span><span class="tag">FDE tooling</span></div>
+        </div>
+        <div class="project-stat">47s<span>500+ files</span></div>
+      </a>
+      <a class="project-row" href="https://github.com/Miked1991/tenacious-conversion-engine" target="_blank">
+        <div class="project-num">03</div>
+        <div>
+          <div class="project-name">Tenacious Conversion Engine</div>
+          <div class="project-desc">B2B sales automation with Crunchbase enrichment, AI maturity scoring, and personalized outreach generation. Evaluated at Pass@1 of 72.67%.</div>
+          <div class="project-tags"><span class="tag">FastAPI</span><span class="tag">Python</span><span class="tag">Crunchbase API</span><span class="tag">LLM scoring</span></div>
+        </div>
+        <div class="project-stat">72.67%<span>Pass@1</span></div>
+      </a>
+      <a class="project-row" href="https://github.com/Miked1991/digital-courtroom" target="_blank">
+        <div class="project-num">04</div>
+        <div>
+          <div class="project-name">Digital Courtroom</div>
+          <div class="project-desc">LangGraph-orchestrated auditing system for forensic codebase analysis. Detective → Judge → Synthesis node architecture produces structured, actionable reports.</div>
+          <div class="project-tags"><span class="tag">LangGraph</span><span class="tag">Python</span><span class="tag">Forensic analysis</span><span class="tag">Graph orchestration</span></div>
+        </div>
+        <div class="project-stat">→<span>view repo</span></div>
+      </a>
+      <a class="project-row" href="https://github.com/Miked1991/10acadam_AI_content_gen" target="_blank">
+        <div class="project-num">05</div>
+        <div>
+          <div class="project-name">AI Content Generator</div>
+          <div class="project-desc">Multi-provider async framework for AI-generated content — music, video, and images across Google Lyria, MiniMax, and KlingAI providers.</div>
+          <div class="project-tags"><span class="tag">Python</span><span class="tag">FFmpeg</span><span class="tag">Async</span><span class="tag">Multi-provider</span></div>
+        </div>
+        <div class="project-stat">→<span>view repo</span></div>
+      </a>
+    </div>
+  </div>
 
-## 📊 At a Glance
+  <!-- ACHIEVEMENTS -->
+  <div class="section">
+    <div class="section-title">GitHub Achievements</div>
+    <div class="achievements-grid">
 
-<div align="center">
+      <div class="achievement-card ach-gold">
+        <div class="ach-icon">🦈</div>
+        <div class="ach-name">Pull Shark</div>
+        <div class="ach-desc">Merged pull requests recognized by the community — sustained code review discipline.</div>
+        <div class="ach-tier tier-gold">Gold</div>
+      </div>
 
-| Repositories | Primary Language | Best Eval Score | Processing Speed |
-|:---:|:---:|:---:|:---:|
-| **24+** public projects | **Python** dominant | **72.67%** Pass@1 | **47s** / 500+ files |
+      <div class="achievement-card ach-green">
+        <div class="ach-icon">🌱</div>
+        <div class="ach-name">Quickdraw</div>
+        <div class="ach-desc">Closed an issue or pull request within 5 minutes of opening it.</div>
+        <div class="ach-tier tier-green">Unlocked</div>
+      </div>
 
-</div>
+      <div class="achievement-card ach-blue">
+        <div class="ach-icon">🔭</div>
+        <div class="ach-name">Galaxy Brain</div>
+        <div class="ach-desc">Answered a discussion that was marked as the accepted answer.</div>
+        <div class="ach-tier tier-blue">Unlocked</div>
+      </div>
 
----
+      <div class="achievement-card ach-purple">
+        <div class="ach-icon">🦉</div>
+        <div class="ach-name">Starstruck</div>
+        <div class="ach-desc">A repository earned 16 or more stars — work recognized by the community.</div>
+        <div class="ach-tier tier-purple">Unlocked</div>
+      </div>
 
-## 📈 GitHub Analytics
+      <div class="achievement-card ach-silver">
+        <div class="ach-icon">🪙</div>
+        <div class="ach-name">YOLO</div>
+        <div class="ach-desc">Merged a pull request without a code review — shipped with confidence.</div>
+        <div class="ach-tier tier-silver">Unlocked</div>
+      </div>
 
-<div align="center">
+      <div class="achievement-card ach-red">
+        <div class="ach-icon">🏔️</div>
+        <div class="ach-name">Arctic Code Vault</div>
+        <div class="ach-desc">Code preserved in the GitHub Arctic Code Vault for future generations.</div>
+        <div class="ach-tier tier-red">Contributor</div>
+      </div>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Miked1991&show_icons=true&theme=algolia&hide_border=true&bg_color=0D1117&title_color=7DF9C2&icon_color=5B8EFF)
-&nbsp;&nbsp;
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Miked1991&theme=algolia&hide_border=true&background=0D1117&stroke=7DF9C2&ring=7DF9C2&fire=5B8EFF)
+    </div>
+  </div>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Miked1991&layout=compact&theme=algolia&hide_border=true&bg_color=0D1117&title_color=7DF9C2)
+  <!-- STATS -->
+  <div class="section">
+    <div class="section-title">At a Glance</div>
+    <div class="stats-grid">
+      <div class="stat-cell">
+        <div class="stat-label">Repositories</div>
+        <div class="stat-value blue">24+</div>
+        <div class="stat-sub">public projects</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-label">Primary Language</div>
+        <div class="stat-value green">Python</div>
+        <div class="stat-sub">dominant across repos</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-label">Best Eval Score</div>
+        <div class="stat-value">72.67%</div>
+        <div class="stat-sub">Pass@1 — Conversion Engine</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-label">Processing Speed</div>
+        <div class="stat-value red">47s</div>
+        <div class="stat-sub">500+ file analysis</div>
+      </div>
+    </div>
+  </div>
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Miked1991&theme=react-dark&hide_border=true&bg_color=0D1117&color=7DF9C2&line=5B8EFF&point=FFB86C&area=true)
+  <!-- CONNECT -->
+  <div class="section">
+    <div class="section-title">Connect</div>
+    <div class="connect-grid">
+      <a class="connect-item" href="https://linkedin.com/in/mikias-dagem" target="_blank">
+        <div class="connect-icon ci-blue">in</div>
+        <div>
+          <div class="connect-label">LinkedIn</div>
+          <div class="connect-handle">mikias-dagem</div>
+        </div>
+      </a>
+      <a class="connect-item" href="https://github.com/Miked1991" target="_blank">
+        <div class="connect-icon ci-green">gh</div>
+        <div>
+          <div class="connect-label">GitHub</div>
+          <div class="connect-handle">Miked1991</div>
+        </div>
+      </a>
+      <a class="connect-item" href="mailto:mikias@10academy.org">
+        <div class="connect-icon ci-red">@</div>
+        <div>
+          <div class="connect-label">Email</div>
+          <div class="connect-handle">mikias@10academy.org</div>
+        </div>
+      </a>
+    </div>
+  </div>
 
-</div>
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-left">
+      Built at <strong>10 Academy</strong> · Addis Ababa, Ethiopia · Open to collaboration on production AI systems
+    </div>
+    <div class="footer-right">
+      <div class="pulse"></div>
+      available for projects
+    </div>
+  </div>
 
----
-
-## 🌐 Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mikias-dagem)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Miked1991)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mikias@10academy.org)
-
-*Open to collaborations on production AI systems, FDE tooling, and applied ML research.*
-
-</div>
-
----
-
-<div align="center">
-  <sub>Built at <strong>10 Academy</strong> · Addis Ababa, Ethiopia · <img src="https://img.shields.io/badge/●%20available%20for%20projects-7DF9C2?style=flat-square&labelColor=0f0f17"/></sub>
 </div>
